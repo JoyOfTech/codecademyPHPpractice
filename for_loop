@@ -1,0 +1,18 @@
+//Write a for loop that counts up by 10, all the way to 100 (e.g. 10, 20, 30...). Inside the for loop, 
+//echo the current value of $i
+
+<html>
+  <head>
+    <title>Solo For Loop!</title>
+  </head>
+  <body>
+    <p>
+      <?php
+      for ($x = 0; $x <= 100; $x += 10) {
+          echo $x;
+      }
+      
+      ?>
+    </p>
+  </body>
+</html>
