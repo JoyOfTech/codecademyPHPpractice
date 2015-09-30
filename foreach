@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>
+      <?php
+        $sentence = array("I'm ", "learning ", "PHP!");
+        
+        foreach($sentence as $word) {
+          echo $word;
+        }
+      ?>
+    </p>
+  </body>
+</html>
+
+//"For each thing in $sentence, assign that thing temporarily to the variable $word." 
+//(We don't have to use the name $word—just as with for loops, we can call our temporary variable anything we want.)
+
+// another example
+
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>
+      <?php
+        $yardlines = array("The 50... ", "the 40... ",
+        "the 30... ", "the 20... ", "the 10... ");
+        // Write your foreach loop below this line
+        foreach($yardlines as $yards) {
+            echo $yards;
+        }
+        // Write your foreach loop above this line
+        echo "touchdown!";
+      ?>
+    </p>
+  </body>
+</html>
+
+//output: The 50... the 40... the 30... the 20... the 10... touchdown!
